@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./style/App.css";
-import Board from "./components/Board";
+import "../style/App.css";
+import Board from "./Board";
 
 function App() {
   const [numberOfElevators, setNumberOfElevators] = useState(0)
