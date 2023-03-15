@@ -75,7 +75,7 @@ function Board({ numberOfFloors, numberOfElevators }) {
       const isElevatorOnGround = ((!elevator.currentFloor && !elevator.target) || elevator.target === -1);
       const isElivatorGoingUp = elevator.target > elevator.currentFloor;
       const isElivatorGoingDown = elevator.target < elevator.currentFloor;
-      const isFloorLowerThanElevator = elevator.target < floor && floor < elevator.currentFloor;
+      const isFloorLowerThanElevator = elevator.target <= floor && floor < elevator.currentFloor;
       const isFloorHigherThanElevator = elevator.target < floor;
       const isElevatorStatic = elevator.target === elevator.currentFloor;
 
