@@ -1,0 +1,28 @@
+button {
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  color: aliceblue;
+  justify-content: center;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  margin-left: 4%;
+  width: 80px;
+  margin-right: 50px;
+}
+
+.available {
+    background-color: #65d493;
+}
+
+.unavailable {
+    background-color: #f05157;
+}
+
+.arrived {
+    background-color: auto;
+    border: #65d493 1px solid;
+    color: #65d493;
+}

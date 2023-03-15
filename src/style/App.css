@@ -1,0 +1,17 @@
+.App {
+  height: fit-content;
+  width: fit-content;
+  min-width: 100%;
+  text-align: center;
+}
+
+.header {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  justify-content: center;
+  height: 20%;
+  min-height: 200px;
+}

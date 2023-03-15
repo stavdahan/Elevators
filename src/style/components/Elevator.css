@@ -1,0 +1,36 @@
+:root {
+  --currentFloor1: 1%;
+  --nextFloor1: 1%;
+  --currentFloor2: 1%;
+  --nextFloor2: 1%;
+  --color: black;
+}
+
+.column {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 92px;
+  position: relative;
+}
+
+.cell {
+  background-color: aliceblue;
+  display: flex;
+  height: 48px;
+  width: 90px;
+  margin: 1px;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.elevator {
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  position: absolute;
+  bottom: 1px;
+  height: 40px;
+  z-index: 1;
+  width: 40%;
+}
